@@ -1,0 +1,152 @@
+@font-face{
+	font-family: Lato-Bold;
+	src: url(../fonts/Lato-Bold.ttf);
+}
+@font-face{
+	font-family: Lato-Regular;
+	src: url(../fonts/Lato-Regular.ttf);
+}
+@font-face{
+	font-family: Roboto-Medium;
+	src: url(../fonts/Roboto-Medium.ttf);
+}
+@font-face{
+	font-family: Roboto-Regular;
+	src: url(../fonts/Roboto-Regular.ttf);
+}
+
+/*common start*/
+body{
+	font-family: Lato-Regular;
+	font-size: 16px;
+}
+/*common end*/ 
+/*header start*/
+header{
+	margin: 15px 0;
+}
+.logo{
+	font-family: Lato-Regular;
+	font-size: 30px;
+	color: #333333;
+	text-transform: uppercase;
+}
+.menu ul li a{
+	margin: 0 15px;
+	color: #8e8e8e !important;
+}
+.menu ul li a:hover{
+	font-family: Lato-Bold;
+	color: #333333 !important;
+}
+.nav_custom_icon{
+	margin: 5px 0;
+	width: 30px;
+	height: 3px;
+	background-color: #333333;
+	border-radius: 3px;
+	display: block;
+}
+.nav_search{}
+.btn_search{
+	color: #8e8e8e;
+}
+.btn_search:hover{
+	color: #333333;
+}
+
+.btn_search i{
+
+}
+.c_dd_menu[data-bs-popper] {
+    top: 60px;
+    left: -350px;
+}
+.c_dd_menu {
+    min-width: 400px;
+    padding: 5px 5px;
+}
+/*header end*/ 
+
+/*slider start*/
+section.slider{
+    background-image: url(../images/hero_background.jpg);
+    background-repeat: no-repeat;
+    background-position:  center;
+}
+
+
+.c_content{
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+.c_content h1{
+    font-family: 'lato-bold';
+    color: #ffff;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.c_content p{
+    color: #ffff;
+    margin-bottom: 40px;
+    font-size: 16px;
+    word-spacing: 2px;
+}
+.c_content .btn-slide{
+    width: 150px;
+    height: 50px;
+    font-family: 'roboto-medium';
+    background-color: #ffff;
+    border: none;
+    box-shadow: none !important;
+    border: 1px solid #ffff;
+    border-radius: 2px;
+    text-transform: uppercase;
+    transition: .3s;
+    cursor: pointer;
+   
+
+}
+.c_content .btn-slide:hover{
+    color: #ffff;
+    background-color: transparent;
+}
+
+
+
+
+.ccn, .ccp{
+    align-items: flex-end !important;
+    color:#8e8e8e;
+    border: none;
+    background-color: transparent;
+    box-shadow: none;
+    cursor: pointer;
+    text-transform: uppercase;
+
+    
+}
+
+.ccn span, .ccp span{
+    background-image: none !important;
+}
+
+
+.ccn{
+    /* margin-top:  auto !important;  */
+    margin-right: 10px;
+}
+
+.ccn:hover{
+    color: #333333;
+}
+
+.ccp{
+    left: 70px;
+   
+    /* margin-top:  auto !important; */
+}
+.ccp:hover{
+    color: #333333;  
+}
+/*slider end */
